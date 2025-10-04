@@ -33,10 +33,8 @@
         * Combine as pontuações (ex: por uma média ponderada) para criar um **mapa final de probabilidade de habitat de forrageamento**. Células com pontuação alta são os "hotspots".
     4.  **Visualização:** Apresente o resultado como um mapa interativo. O usuário poderia ver as camadas de dados (SST, SSHA, Clorofila) e o mapa final de probabilidade. Ferramentas como Python com Folium, ou plataformas como o Google Earth Engine, seriam ideais para isso.
 
-    $
-    \text{Índice de Habitat (H)} = w_1 \cdot S_{SST} + w_2 \cdot S_{SSHA} + w_3 \cdot S_{Chl-a}
-    $
-    
+    $\text{Índice de Habitat (H)} = w_1 \cdot S_{SST} + w_2 \cdot S_{SSHA} + w_3 \cdot S_{Chl-a}$
+
     Onde $S$ é a pontuação de adequabilidade para cada variável e $w$ é o peso (importância) de cada variável.
 
 ### **Tópico 3: Projetar a Tag Conceitual "Bio-Tracker"**
